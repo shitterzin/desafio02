@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4D04E;
+}
+
+.container-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.container-box {
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px black;
+}
+
+.container-img-box {
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+    color: #F4D04E;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.learning-container {
+    background-color: #F4D04E;
+    width: 82px;
+    height: 29px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.text-learning {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.paragrafo-one {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 18px;
+    margin-left: 24px;
+}
+
+h1 {
+    font-family: Figtree;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+.paragrafo-two {
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #6B6B6B;
+}
+
+.image-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+.text-avatar {
+    display: flex;
+    margin-top: -27px;
+    margin-left: 70px;
+    font-family: Figtree;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 150%;
+}
+
